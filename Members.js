@@ -17,3 +17,21 @@ function hide() {
         document.form.password.type = "password";
     }
 }
+
+function check() {
+    let id = document.form.email.value;
+    let password = document.form.password.value;
+    let id1 = String(id.includes("@"));
+    let id2 = String(id.includes("."));
+    if (id == "Email" || password == "Password") {
+        alert("Empty Fields Not Allowed!");
+    }
+
+    else if (id1 != "true" || id2 != "true") {
+        alert("Enter Valid E-mail Id!");
+    }
+
+    else {
+        alert("Logged In!")
+    }
+}
