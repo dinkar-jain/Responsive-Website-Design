@@ -37,3 +37,27 @@ function confirmhide() {
         document.form.confirm.type = "password";
     }
 }
+
+function check() {
+    let name = document.form.name.value;
+    let id = document.form.email.value;
+    let password = document.form.password.value;
+    let confirm = document.form.confirm.value;
+    let id1 = String(id.includes("@"));
+    let id2 = String(id.includes("."));
+    if (name == "Name" || id == "E-mail" || password == "Password" || confirm == "Confirm Password") {
+        alert("Empty Fields Not Allowed!");
+    }
+
+    else if (id1 != "true" || id2 != "true") {
+        alert("Enter Valid E-mail Id!");
+    }
+
+    else if (password != confirm) {
+        alert("Check Confirm Password!")
+    }
+
+    else {
+        alert("Check Your MailBox!");
+    }
+}
