@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Navbar.css">
+    <link rel="stylesheet" href="SignUp.css">
+    <script src="Check.js"></script>
+    <script src="SignUp.js"></script>
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="https://dinkar-jain.github.io/Accountant.github.io/">Home</a></li>
+            <li><a href="https://dinkar-jain.github.io/Accountant.github.io/AboutUs.html">About Us</a></li>
+            <li><a href="https://dinkar-jain.github.io/Accountant.github.io/SignUp.html">Members</a></li>
+            <li><a href="https://dinkar-jain.github.io/Accountant.github.io/Support.html">Support</a></li>
+        </ul>
+    </nav>
+    <div id="Main">
+        <div id="text">Your one-stop solution from accounting to compliance. Inspired by the way you work.</div>
+        <form name="form" onsubmit="check()">
+            <div id="link">
+                <h1><b><a href="https://dinkar-jain.github.io/Accountant.github.io/Members.html">Sign In</a>/<a
+                            href="https://dinkar-jain.github.io/Accountant.github.io/SignUp.html">Sign Up</a></b></h1>
+            </div><br>
+            <input type="text" id="name" onfocus="if(this.value == 'Name') {this.value = '';}"
+                onblur="if (this.value == '') {this.value = 'Name';}" value="Name"><br><br>
+            <input type="text" id="email" onfocus="if(this.value == 'E-mail') {this.value = '';}"
+                onblur="if (this.value == '') {this.value = 'E-mail';}" value="E-mail"><br><br>
+            <input type="text" id="password" onfocus="see()" onblur="hide()" value="Password"><br><br>
+            <input type="text" id="confirm" onfocus="confirmsee()" onblur="confirmhide()"
+                value="Confirm Password"><br><br>
+            <input id="button" type="submit" onfocus="this.value=''" value="SignUp">
+        </form>
+    </div>
+</body>
+
+</html>

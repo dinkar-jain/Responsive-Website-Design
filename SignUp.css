@@ -1,0 +1,93 @@
+body {
+    background-image: url("https://resources.tallysolutions.com/wp-content/uploads/free-trial/images/free-trial-tally.png");
+    background-repeat: no-repeat;
+}
+
+#Main {
+    display: flex;
+}
+
+#text {
+    padding-left: 50px;
+    width: 100%;
+    color: #ffffff;
+    font-size: 2rem;
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+
+form {
+    padding: 100px;
+    margin: auto;
+}
+
+form a {
+    text-decoration: none;
+    color: lightgreen;
+}
+
+#link {
+    color: lightgreen
+}
+
+form a:hover {
+    color: #0067b8;
+}
+
+form h1 {
+    text-align: center;
+}
+
+form input {
+    border: 1px solid #a2a2a2;
+    width: 300px;
+    height: 30px;
+    border-radius: 26px;
+    background-color: #F1F1F1;
+    outline-style: none;
+    padding-left: 10px;
+}
+
+form #button {
+    border: none;
+    background-color: #ef7215;
+    width: 315px;
+}
+
+form #Forgot {
+    text-align: center;
+}
+
+@media screen and (max-width: 1060px) {
+    #Main {
+        flex-direction: column;
+    }
+
+    form {
+        padding: 50px;
+    }
+
+    #text {
+        text-align: center;
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    li {
+        font-size: 1rem;
+    }
+
+    li a {
+        padding: 0.6rem;
+    }
+
+    form {
+        padding: 0px;
+    }
+
+    #text {
+        padding-bottom: 200px;
+        font-size: 25px;
+    }
+}

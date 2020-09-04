@@ -1,0 +1,114 @@
+#GetInTouch {
+    text-align: center;
+    font-size: 20px;
+    padding: 21px;
+}
+
+#GetInTouch1 {
+    color: #241f21;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+}
+
+#Format {
+    display: flex;
+}
+
+form {
+    padding: 35px;
+    width: 600px;
+}
+
+form div {
+    padding: 13px;
+}
+
+form input {
+    padding-left: 10px;
+    width: 555px;
+    background-color: #F1F1F1;
+    height: 35px;
+    border: none;
+}
+
+form textarea {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    height: 120px;
+    background-color: #F1F1F1;
+    border: none;
+    width: 555px;
+}
+
+form #button {
+    outline-style: none;
+    background-color: #00BFFF;
+    width: 100px;
+    border-radius: 26px;
+    margin-left: 220px;
+}
+
+#OtherWays {
+    padding: 80px;
+}
+
+#OtherWays h3 {
+    padding: 10px;
+}
+
+#OtherWays img {
+    margin: 0px 10px;
+}
+
+@media screen and (max-width: 1140px) {
+
+    #OtherWays {
+        padding: 80px 40px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #Format {
+        flex-direction: column;
+    }
+
+    form {
+        width: 0rem;
+    }
+
+    #OtherWays {
+        padding: 20px 5px;
+    }
+
+    #OtherWays h1 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 610px) {
+
+    li {
+        font-size: 1rem;
+    }
+
+    li a {
+        padding: 0.6rem;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    form input {
+        width: auto;
+    }
+
+    form textarea {
+        width: 170px;
+    }
+
+    form #button {
+        margin-left: 40px;
+    }
+}

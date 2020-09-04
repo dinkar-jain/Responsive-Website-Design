@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Navbar.css">
+    <link rel="stylesheet" href="Support.css">
+    <script src="Check.js"></script>
+    <title>Support</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="https://dinkar-jain.github.io/Accountant.github.io/">Home</a></li>
+            <li><a href="https://dinkar-jain.github.io/Accountant.github.io/AboutUs.html">About Us</a></li>
+            <li><a href="https://dinkar-jain.github.io/Accountant.github.io/SignUp.html">Members</a></li>
+            <li><a href="https://dinkar-jain.github.io/Accountant.github.io/Support.html">Support</a></li>
+        </ul>
+    </nav>
+    <div id="GetInTouch"><b id="GetInTouch1">Get in touch</b>
+        <br>We’ll get back to you as soon as possible. We look forward to hearing from you!</div>
+
+    <div id="Format">
+        <form name="form" onsubmit="check()">
+            <div>
+                <h3><b>Name:</b></h3>
+            </div>
+            <input type="text" id="name" value="" required>
+            <div>
+                <h3><b>E-mail:</b></h3>
+            </div>
+            <input type="text" name="email" value="" required>
+            <div>
+                <h3><b>Message:</b></h3>
+            </div>
+            <textarea name="message" value="" required></textarea><br><br>
+            <input id="button" type="submit" value="Submit">
+        </form>
+        <div id="OtherWays"><b>
+                <h1>Other ways to connect</h1>
+            </b><br>
+            <img src="data:image/png;base64,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"
+                height="40px" width="40px" style="float: left;">
+            <h3>Email: info@rkja.in</h3><br><br>
+            <img src="https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-512.png" height="40px" width="40px"
+                style="float: left;">
+            <h3>Phone Number: 9312701976</h3>
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+#Main {
+    display: flex;
+}
+
+form {
+    padding: 100px;
+    margin: auto;
+}
+
+form h1 {
+    text-align: center;
+}
+
+form input {
+    width: 300px;
+    height: 30px;
+    border-radius: 26px;
+    background-color: #F1F1F1;
+    outline-style: none;
+    padding-left: 10px;
+}
+
+form #button {
+    background-color: #16de16;
+}
+
+form #button {
+    background-color: #16de16;
+    width: 315px;
+}
+
+@media screen and (max-width: 1030px) {
+    #Main {
+        flex-direction: column;
+    }
+
+    img {
+        height: 350px;
+    }
+
+    #Img {
+        text-align: center;
+    }
+
+    form {
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    li {
+        font-size: 1rem;
+    }
+
+    li a {
+        padding: 0.6rem;
+    }
+
+    img {
+        height: 200px;
+    }
+
+    form {
+        padding: 8px;
+    }
+}

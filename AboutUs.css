@@ -1,0 +1,65 @@
+#format {
+    overflow: hidden;
+    display: flex;
+}
+
+#text {
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+img{
+    width: 850px;
+    height: 550px;
+}
+
+@media screen and (max-width: 1200px) {
+    #format {
+        flex-direction: column;
+    }
+
+    #text {
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    #img {
+        text-align: center;
+        justify-content: center;
+    }
+
+    img{
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    img {
+        width: 500px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    li {
+        font-size: 1rem;
+    }
+
+    li a {
+        padding: 0.6rem;
+    }
+
+    img {
+        width: 350px;
+        height: 200px;
+    }
+}

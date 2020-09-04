@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Navbar.css">
+    <link rel="stylesheet" href="Forget.css">
+    <script src="Check.js"></script>
+    <title>Forgot Password</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="https://dinkar-jain.github.io/Accountant.github.io/">Home</a></li>
+            <li><a href="https://dinkar-jain.github.io/Accountant.github.io/AboutUs.html">About Us</a></li>
+            <li><a href="https://dinkar-jain.github.io/Accountant.github.io/SignUp.html">Members</a></li>
+            <li><a href="https://dinkar-jain.github.io/Accountant.github.io/Support.html">Support</a></li>
+        </ul>
+    </nav>
+    <div id="Main">
+        <div id="Img">
+            <img src="https://cdn.iconscout.com/icon/free/png-512/laptop-user-1-1179329.png">
+        </div>
+        <form name="form" onsubmit="check()">
+            <h1><b>Forgot Password</b></h1><br>
+            <input type="text" id="email" onfocus="if(this.value == 'Registered Email') {this.value = '';}"
+                onblur="if (this.value == '') {this.value = 'Registered Email';}" value="Registered Email"><br><br>
+            <input id="button" type="submit" value="Submit"><br><br>
+        </form>
+    </div>
+</body>
+
+</html>
