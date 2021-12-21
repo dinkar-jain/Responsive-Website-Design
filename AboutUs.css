@@ -7,6 +7,7 @@
     margin: auto;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
 }
 
 h1 {
@@ -28,7 +29,7 @@ img{
     }
 
     #text {
-        text-align: left;
+        text-align: justify;
         margin-left: 15px;
     }
 
