@@ -1,6 +1,7 @@
 body {
     background-image: url("https://resources.tallysolutions.com/wp-content/uploads/free-trial/images/free-trial-tally.png");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #Main {
